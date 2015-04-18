@@ -1,0 +1,20 @@
+<include file="./Blog/Public/html/header.html" />
+<div class="container">
+	<include file="./Blog/Public/html/navbar.html" />
+	<div class="col-md-3 col-sm-3">
+	<include file="./Blog/Public/html/userList.html" />
+	<include file="./Blog/Public/html/about.html" />
+	</div>
+	<div class="col-md-9 col-sm-9">
+		<foreach name="article" item="data">
+		<div class="panel panel-default back block">
+			<div class="panel-body">
+			<h2><a href="index.php/home/index/show">{$data.title}</a></h2>
+			<h5><small>发表于：{$data.timeline|date="Y-m-d H:i",###}，作者{$data.auther},出自{$data.from}</small></h5>
+				<p>{$data.content}</p>
+			</div>
+		</div>
+		</foreach>
+	</div>
+</div>
+<include file="./Blog/Public/html/footer.html" />

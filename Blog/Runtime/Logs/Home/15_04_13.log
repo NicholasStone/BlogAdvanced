@@ -1,0 +1,6 @@
+[ 2015-04-13T22:15:54+08:00 ] ::1 /lab/
+ERR: 模板不存在:./Blog/Home/View/Index/index.html.html
+
+[ 2015-04-13T22:15:56+08:00 ] ::1 /lab/
+ERR: 模板不存在:./Blog/Home/View/Index/index.html.html
+

@@ -1,0 +1,16 @@
+<div class="panel panel-default back" id="userList">
+<div class="panel-body">
+<table class="table table-hover">
+	<thead>
+		<tr><th>其他人</th></tr>
+	</thead>
+	<if condition="!empty($users)">
+	<foreach name="users" item="value">
+	<tr><td>{$value}</td></tr>
+	</foreach>
+	<else />
+	<tr><td>这儿还没有人</td></tr>
+	</if>
+</table>
+</div>
+</div>

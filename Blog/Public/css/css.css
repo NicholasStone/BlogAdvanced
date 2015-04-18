@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+body{
+    background:url(../img/S.H.I.E.L.D.jpg);
+    background-attachment:fixed;
+    margin-top:70px;
+    font-family:'Microsoft JhengHei UI',KaiTi,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+	position:absolute;
+	button:10px;
+}
+.image{
+	width: 20px;
+	height: 20px;
+}
+.content{
+    text-align:center;
+}
+.back{
+	background:rgba(255,255,255,.8)
+}
+.block{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.glyphicon{
+    color:white;
+}
+#logo{
+    width:30px;
+    height:30px;
+}

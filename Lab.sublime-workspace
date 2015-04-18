@@ -1,0 +1,616 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"def",
+				"define"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"l",
+				"link	Tag"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"show",
+				"showuser"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"Vi",
+				"VIEW"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"mair",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"t",
+				"table	Tag"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"ti",
+				"this"
+			],
+			[
+				"news",
+				"newsobj"
+			],
+			[
+				"req",
+				"require_once"
+			],
+			[
+				"date_D",
+				"date_default_timezone_get"
+			],
+			[
+				"is_A",
+				"is_array"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"iss",
+				"isset"
+			],
+			[
+				"fe",
+				"fetch_assoc"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"dir",
+				"direct"
+			],
+			[
+				"ad",
+				"admin"
+			],
+			[
+				"s",
+				"str"
+			],
+			[
+				"Loca",
+				"location"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"f",
+				"fieldset	Tag"
+			],
+			[
+				"ha",
+				"header	Tag"
+			],
+			[
+				"a",
+				"authobj"
+			],
+			[
+				"auth",
+				"authobj"
+			],
+			[
+				"che",
+				"checklogin"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"tem",
+				"template_c"
+			],
+			[
+				"temp",
+				"template_dir"
+			],
+			[
+				"tme",
+				"template_dir"
+			],
+			[
+				"c",
+				"correntdir"
+			],
+			[
+				"CON",
+				"config_user"
+			],
+			[
+				"ins",
+				"insert"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"INS",
+				"insertValue"
+			],
+			[
+				"config_",
+				"config_user"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"stat",
+				"static"
+			],
+			[
+				"db",
+				"dbname"
+			],
+			[
+				"d",
+				"dbpwd"
+			],
+			[
+				"sta",
+				"static"
+			],
+			[
+				"ass",
+				"assign"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"sma",
+				"smarty"
+			],
+			[
+				"sm",
+				"smarty"
+			],
+			[
+				"tes",
+				"testView"
+			],
+			[
+				"m",
+				"methodAllowed"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"add",
+				"addslashes"
+			],
+			[
+				"met",
+				"method"
+			],
+			[
+				"C",
+				"Controller"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"vi",
+				"visit"
+			],
+			[
+				"mysqli_e",
+				"mysqli_error"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Blog/Home/Controller/IndexController.class.php",
+			"settings":
+			{
+				"buffer_size": 998,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Blog/Home/View/index/test.html",
+			"settings":
+			{
+				"buffer_size": 132,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 384.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import  urllib.request,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler()));open(os.path.join(ipp,pf),'wb').write(urllib.request.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/wamp/www/Lab",
+		"/D/wamp/www/Lab/Blog",
+		"/D/wamp/www/Lab/Blog/Runtime",
+		"/D/wamp/www/Lab/Blog/Runtime/Cache",
+		"/D/wamp/www/Lab/Blog/Runtime/Cache/Home"
+	],
+	"file_history":
+	[
+		"/D/wamp/www/Lab/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php",
+		"/D/wamp/www/Lab/Blog/Home/View/index/test.html",
+		"/D/wamp/www/Lab/Blog/Common/Conf/config.php",
+		"/D/wamp/www/Lab/admin.php",
+		"/D/wamp/www/Lab/index.php",
+		"/D/wamp/www/Lab/Blog/Home/Controller/IndexController.class.php",
+		"/F/下载/红色警戒3 起义/红色警戒3/index.php",
+		"/D/wamp/www/BlogAdv/libs/View/tpl/index/otherusers.html",
+		"/D/wamp/www/BlogAdv/libs/View/tpl/index/newsinfo.html",
+		"/D/wamp/www/BlogAdv/libs/View/tpl/index/navbar.html",
+		"/D/wamp/www/BlogAdv/css/accordion.css",
+		"/D/wamp/www/BlogAdv/libs/View/tpl/index/index.html",
+		"/D/wamp/www/BlogAdv/libs/Controller/adminController.class.php",
+		"/D/wamp/www/BlogAdv/libs/Model/userModel.class.php",
+		"/D/wamp/www/BlogAdv/libs/Controller/indexController.class.php",
+		"/D/wamp/www/News/libs/View/tpl/admin/newsadd.html",
+		"/D/wamp/www/News/libs/View/tpl/index/navbar.html",
+		"/D/wamp/www/News/libs/View/tpl/index/index.html",
+		"/D/wamp/www/News/libs/View/tpl/index/otherusers.html",
+		"/D/wamp/www/News/libs/View/tpl/admin/newslist.html",
+		"/D/wamp/www/News/css/admin.css",
+		"/D/wamp/www/News/libs/View/tpl/admin/index.html",
+		"/D/wamp/www/News/libs/View/tpl/admin/login.html",
+		"/D/wamp/www/News/libs/View/tpl/admin/leftmenu.html",
+		"/D/wamp/www/News/libs/Model/userModel.class.php",
+		"/D/wamp/www/News/libs/core/MySQL.class.php",
+		"/D/wamp/www/News/libs/View/tpl/index/articleList.html",
+		"/D/wamp/www/手风琴/index.html",
+		"/D/wamp/www/News/libs/others/include.list.php",
+		"/D/wamp/www/News/libs/Controller/indexController.class.php",
+		"/D/wamp/www/News/libs/Controller/userController.class.php",
+		"/D/wamp/www/News/libs/Model/newsModel.class.php",
+		"/D/wamp/www/News/libs/Controller/adminController.class.php",
+		"/D/wamp/www/News/libs/core/ERROR.class.php",
+		"/D/wamp/www/News/css/css.css",
+		"/D/wamp/www/News/libs/View/tpl/index/newsinfo.html",
+		"/D/wamp/www/BlogAdv/libs/View/tpl/admin/index.html",
+		"/D/wamp/www/BlogAdv/css/css.css",
+		"/D/wamp/www/BlogAdv/libs/View/tpl/admin/newsadd.html",
+		"/D/wamp/www/BlogAdv/libs/View/tpl/admin/newslist.html",
+		"/D/wamp/www/BlogAdv/libs/View/tpl/admin/login.html",
+		"/D/wamp/www/BlogAdv/libs/Model/newsModel.class.php",
+		"/D/wamp/www/BlogAdv/libs/View/tpl/admin/showmassage.html",
+		"/D/wamp/www/BlogAdv/init.php",
+		"/D/wamp/www/BlogAdv/index.php",
+		"/D/wamp/www/BlogAdv/libs/core/View.class.php",
+		"/D/wamp/www/BlogAdv/libs/core/MySQL.class.php",
+		"/D/wamp/www/BlogAdv/libs/Model/authModel.class.php",
+		"/D/wamp/www/BlogAdv/libs/View/tpl/admin/LoginFailed.html",
+		"/D/wamp/www/BlogAdv/libs/others/config.php",
+		"/D/wamp/www/BlogAdv/config.php",
+		"/D/wamp/www/BlogAdv/admin.php",
+		"/D/wamp/www/BlogAdv/libs/Model/adminModel.class.php",
+		"/D/wamp/www/BlogAdv/libs/View/tpl/admin/leftmenu.html",
+		"/D/wamp/www/BlogAdv/function/function.php",
+		"/D/wamp/www/BlogAdv/libs/others/include.list.php",
+		"/D/wamp/www/Blog/index.php",
+		"/I/mvc架构模式分析与设计（源代码）/config.php",
+		"/D/wamp/www/BlogAdv/libs/View/tpl/login.html",
+		"/D/wamp/www/mvc-imooc/config.php",
+		"/D/wamp/www/BlogAdv/include.list.php",
+		"/D/wamp/www/mvc-imooc/function.php",
+		"/D/wamp/www/mvc-imooc/index.php",
+		"/D/wamp/www/BlogAdv/libs/others/init.php",
+		"/D/wamp/www/BlogAdv/mysqli.class.php",
+		"/D/wamp/www/Blog/SaveChange.php",
+		"/D/wamp/www/Blog/interface.php",
+		"/D/wamp/bin/apache/apache2.4.9/conf/httpd.conf",
+		"/D/wamp/www/test/template_c/b7a74c1e26cc1da443b1b2394dd3cc6dfe3ce635.file.test.tpl.cache.php",
+		"/D/wamp/www/test/cache/b7a74c1e26cc1da443b1b2394dd3cc6dfe3ce635.test.tpl.php",
+		"/D/wamp/www/smarty/Smarty.class.php",
+		"/D/wamp/www/smarty/SmartyBC.class.php",
+		"/D/wamp/www/MVC/function.php",
+		"/D/wamp/www/mvc架构模式分析与设计（源代码）/function.php",
+		"/D/wamp/www/MVC/config.php",
+		"/D/wamp/www/MVC/libs/testController.class.php",
+		"/D/wamp/www/MVC/testController.class.php",
+		"/D/wamp/www/index.php",
+		"/D/wamp/www/iMOOC test/index.php",
+		"/D/wamp/www/iMOOC test/2.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"}",
+			"{",
+			"auth",
+			"class=\"form-controll\"",
+			"-example",
+			"back",
+			"news",
+			"\\\\",
+			"directory"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Blog/Home/Controller/IndexController.class.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 998,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 75.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Blog/Home/View/index/test.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Lab.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\wamp\\www\\News\\BlogAdv.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

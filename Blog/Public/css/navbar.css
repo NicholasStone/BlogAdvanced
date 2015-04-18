@@ -1,0 +1,75 @@
+ul.accordion{
+    position:relative;
+    list-style:none;
+    font-family: Cambria, serif;
+    right:0px;
+}
+ul.accordion li{
+    float:right;
+    width:50px;
+    height:50px;
+    display:block;
+    position:relative;
+    overflow:hidden;
+    cursor:pointer;
+}
+ul.accordion li .heading{
+    padding:10px;
+    margin-top:5px;
+    color:#808080;
+    text-align:center;
+}
+ul.accordion li .description{
+    position:absolute;
+    padding-top: 10px;
+    display:none;
+    width: 200px;
+}
+ul.accordion li .description a{
+    position: relative;
+    top:5px;
+    color: #fff;
+}
+ul.accordion li .description a:hover{
+    color:#808080;
+    text-decoration:underline;
+}
+.glyphicon{
+    color:white;
+}
+.nav-tabs{
+    margin-left:0;
+    margin-right:0;
+}
+.nav-tabs>li{
+    padding-left:0;
+    padding-right:0;
+    text-align:center;
+}
+#logo{
+    position: relative;
+    top:-5px;
+    width:30px;
+    height:30px;
+}
+#Tabs_reg_login{
+    padding:10px 30px 30px 10px;
+}
+#Tabs_reg_login a{
+    color:#000;
+}
+#logo{
+    width:30px;
+    height:30px;
+}
+#login,#reg{
+    margin:30px 60px;
+}
+#checkbox{
+    padding-top:5px;
+}
+#set,#logoff{
+//	padding-top:3px;
+	margin-left:40px;
+	margin-right:35px;
+}
