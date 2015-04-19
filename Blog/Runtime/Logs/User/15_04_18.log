@@ -1,0 +1,14 @@
+[ 2015-04-18T23:19:54+08:00 ] ::1 /lab/user.php/index/register
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '".teSt."(
+    		`title` 	VARCHAR(30) NOT NULL UNIQUE KEY,
+    		`content` 	TEX' at line 1
+
+[ 2015-04-18T23:32:42+08:00 ] ::1 /lab/user.php/index/register
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'teSt' for key 'username'
+
+[ 2015-04-18T23:33:23+08:00 ] ::1 /lab/user.php/index/register
+ERR: Think\Model:createTable方法不存在！
+
+[ 2015-04-18T23:35:19+08:00 ] ::1 /lab/user.php/index/register
+ERR: Think\Model:createTable方法不存在！
+

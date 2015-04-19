@@ -56,7 +56,7 @@ $(function () {
                 <li>
                     <div class="heading"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></div>
                     <div class="description">
-                    	<?php if($condition): ?><p><a href="#"><span class="glyphicon glyphicon-cog" id="set"></span></a><a href="#"><span class="glyphicon glyphicon-off" id="logoff"></span></a></p>
+                    	<?php if(! empty($_SESSION['username'])): ?><p><a href="#"><span class="glyphicon glyphicon-cog" id="set"></span></a><a href="#"><span class="glyphicon glyphicon-off" id="logoff"></span></a></p>
                     	<?php else: ?>
                         <button class="btn btn-block" data-toggle="modal" data-target=".login_reg">登录或注册</button><?php endif; ?>
                     </div>
@@ -91,7 +91,7 @@ $(function () {
                 <!-- Tab panes -->
                 <div class="tab-content row">
                     <div role="tabpanel" class="tab-pane fade in active" id="login">
-                        <form method="post" action="index.php?controller=index&method=login" class="form-horizontal">
+                        <form method="post" action="user.php/index/login" class="form-horizontal">
                             <div class="form-group">
                                 <label for="username" class="col-sm-4 control-label">用户名：</label>
                                 <div class="col-sm-6"><input type="text" class="form-control" id="username" placeholder="用户名" required="required" title="请填写用户名" name="username"></div>
@@ -105,7 +105,7 @@ $(function () {
                         </form>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="reg">
-                        <form method="post" action="index.php?controller=user&method=reg" class="form-horizontal">
+                        <form method="post" action="user.php/index/register" class="form-horizontal">
                             <div class="form-group">
                                 <label for="username" class="col-sm-4 control-label">用户名：</label>
                                 <div class="col-sm-6"><input type="text" class="form-control" id="username" placeholder="用户名" required="required" title="请填写用户名" name="username"></div>
@@ -127,6 +127,19 @@ $(function () {
         </div>
     </div>
 </div><?php endif; ?>
+	<div class="col-md-9 col-sm-9">
+		<?php if(! empty($article)): if(is_array($article)): foreach($article as $key=>$data): ?><div class="panel panel-default back block">
+			<div class="panel-body">
+			<h2><a href="user.php/index/details/visit/<?php echo ($data["auther"]); ?>/id/<?php echo ($data["id"]); ?>"><?php echo ($data["title"]); ?></a></h2>
+			<h5><small>发表于：<?php echo (date("Y-m-d H:i",$data["timeline"])); ?>，作者<?php echo ($data["auther"]); ?>,出自<?php echo ($data["from"]); ?></small></h5>
+				<p><?php echo ($data["content"]); ?></p>
+			</div>
+		</div><?php endforeach; endif; ?>
+		<?php else: ?>
+		<div class="panel panel-default back block">
+			<h1>没有文章</h1>
+		</div><?php endif; ?>
+	</div>
 	<div class="col-md-3 col-sm-3">
 	<div class="panel panel-default back" id="userList">
 <div class="panel-body">
@@ -140,19 +153,10 @@ $(function () {
 </table>
 </div>
 </div>
-	<div class="well">
+	<div class="well back">
 <p><strong>Powered by ThinkPHP and Bootstrap</strong></p>
-<p>Source Code:<br /><a href="https://github.com/NicholasStone/lab">github.com/NicholasStone/lab</a></p>
+<p><a href="https://github.com/NicholasStone/lab">Source Code</a></p>
 </div>
-	</div>
-	<div class="col-md-9 col-sm-9">
-		<?php if(is_array($article)): foreach($article as $key=>$data): ?><div class="panel panel-default back block">
-			<div class="panel-body">
-			<h2><a href="index.php/home/index/show"><?php echo ($data["title"]); ?></a></h2>
-			<h5><small>发表于：<?php echo (date("Y-m-d H:i",$data["timeline"])); ?>，作者<?php echo ($data["auther"]); ?>,出自<?php echo ($data["from"]); ?></small></h5>
-				<p><?php echo ($data["content"]); ?></p>
-			</div>
-		</div><?php endforeach; endif; ?>
 	</div>
 </div>
 </body>

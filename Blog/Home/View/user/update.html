@@ -1,0 +1,30 @@
+<include file="./Blog/Public/html/header.html" />
+<js href="__JS__/ckeditor/ckeditor.js,__JS__/ckeditor/adapters/jquery.js" />
+<script type="text/javascript">
+$(document).ready(function()
+{
+	$('#content').ckeditor();
+});
+</script>
+<div class="container">
+<include file="./Blog/Pblic/html/navber.html" />
+	<div class="col-md-9 col-sm-9 col-sm-offset-3 col-md-offset-3">
+	<form action="index.php/user/update" method="get" class="form-inline form-horizontal">
+		<div class="form-group">
+			<label for="title">标题</label>
+			<input type="text" class="form-control" id="title" name="title" value="{$title|default:'在此输入文章标题'}"/>
+		</div>
+		<div class="form-group">
+			<label for="content">内容</label>
+			<textarea class="form-control" rows="200" cols="150" name="content">{$content|default:'在此输入文字内容'}</textarea>
+		</div>
+		<div class="form-group">
+			<label for="from">出处</label>
+			<input type="text" name="from" value="{$from|default:'如果为转文，请标明文章出处'}">
+		</div>
+		<input type="hidden" name="id" value="{$id|default:''}">
+		<input class="btn btn-default col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4" />
+	</form>
+	</div>
+</div>
+<include file="./Blog/Public/html/footer.html" />

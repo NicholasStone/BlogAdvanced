@@ -1,0 +1,28 @@
+<include file="./Blog/Public/html/header.html" />
+<div class="container">
+<include file="./Blog/Pblic/html/navber.html" />
+	<div class="col-md-9 col-sm-9">
+	<if condition="empty($assign)">
+	<div class="panel panel-default back block">
+		<h1>没有写任何文章</h1>
+	</div>
+	<else />
+	<foreach name="assign" item="$data">
+		<div class="panel panel-default back">
+			<table class="table">
+				<tr>
+					<th>标题</th>
+					<th>编辑</th>
+					<th>删除</th>
+				</tr>
+				<foreach name="assign" item="data">
+					<th>{$data.title}</th>
+					<th><a href="index.php/user/update/id={$data.id}"><span class="glyphicon glyphicon-pencil"></span></a></th>
+					<th><a href="index.php/user/delete/id={$data.id}"><span class="glyphicon glyphicon-trash"></span></a></th>
+				</foreach>
+			</table>
+		</div>
+	</if>
+	</div>
+</div>
+<include file="./Blog/Public/html/footerhtml" />

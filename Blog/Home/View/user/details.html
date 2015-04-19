@@ -1,0 +1,17 @@
+<include file="./Blog/Public/html/header.html" />
+<div class="container" >
+<include file="./Blog/Public/html/navbar.html" />
+	<div class="col-md-9 col-sm-9">
+		<div class="panel panel-default">
+			<h2>{$title}</h2>
+			<h3><small>{$auther}于{$timeline|"Y-m-d H:m", ###}</small></h3>
+			<if condition="!empty($from)">
+			<h3><small>引用自{$from}</small></h3>
+			<p>{$content}</p>
+		</div>
+	</div>
+	<div class="col-md-3 col-sm-3">
+	<include file="./Blog/Public/html/otherusers.html" />
+	</div>
+</div>
+<include file="./Blog/Public/html/footer.html" />
